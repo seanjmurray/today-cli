@@ -1,0 +1,19 @@
+{
+  "name": "today-cli",
+  "version": "0.1.0",
+  "description": "A simple cli tool to get the weather and other information about the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanjmurray/today-cli.git"
+  },
+  "author": "Sean Murray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanjmurray/today-cli/issues"
+  },
+  "homepage": "https://github.com/seanjmurray/today-cli#readme"
+}
