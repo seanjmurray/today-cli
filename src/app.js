@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 'use strict'
 
-const minimist = require('minimist')
+const { mainMenu } = require('./lib/modules/mainmenu')
 
-const args = minimist(process.argv.slice(2))
-
-console.log(args)
+mainMenu()

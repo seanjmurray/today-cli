@@ -4,7 +4,7 @@
   "description": "A simple cli tool to get the weather and other information about the day",
   "main": "./src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,12 @@
   "homepage": "https://github.com/seanjmurray/today-cli#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "minimist": "^1.2.5",
+    "inquirer": "^7.3.3",
     "mongoose": "^5.10.5",
     "standard": "^14.3.4"
   },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "mock-stdin": "^1.0.0"
   }
 }
