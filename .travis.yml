@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "stable"
+env:
+  global: 
+    - CC_TEST_REPORTER_ID=db615c6d663b07a0e738a0bd36bfa51f4a0872f38ced4fac91e38a3520ab28b2
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+script:
+  - npm test
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

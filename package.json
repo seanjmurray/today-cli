@@ -2,9 +2,9 @@
   "name": "today-cli",
   "version": "0.1.0",
   "description": "A simple cli tool to get the weather and other information about the day",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/seanjmurray/today-cli/issues"
   },
-  "homepage": "https://github.com/seanjmurray/today-cli#readme"
+  "homepage": "https://github.com/seanjmurray/today-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.10.5",
+    "standard": "^14.3.4"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "mock-stdin": "^1.0.0"
+  }
 }
