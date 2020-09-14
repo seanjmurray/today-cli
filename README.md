@@ -9,11 +9,11 @@
 
 ## Goal
 
+I wanted to build a simple CLI tool to track events, tasks, and notes. You can enter daily tasks to to keep track of, notes to remember and events to not forget about. I am trying to create an almost bullet journal like tool but keep the ui clean and simple. Feel free to reach out to me with any suggestions or open a pull request.
+
 ## Installation
 
 ## Usage
-
-### Commands
 
 ## The Team
 
