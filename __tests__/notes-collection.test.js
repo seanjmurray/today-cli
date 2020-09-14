@@ -1,5 +1,5 @@
 require('@code-fellows/supergoose')
-// require('../jest.config');
+require('../jest.config');
 
 const NotesCRUD = require('../src/collection/note-collection')
 const noteSchema = require('../src/model/note-schema')
