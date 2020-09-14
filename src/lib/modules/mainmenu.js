@@ -13,7 +13,6 @@ const mainMenu = async () => {
     const { selection } = choice
     
       if (selection === 'View'){
-          console.log('here')
         await viewMenu()
         mainMenu()
       } else if (selection === 'Add') {

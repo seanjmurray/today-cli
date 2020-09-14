@@ -20,7 +20,7 @@ const viewMenu = async () => {
         case 'Notes':
 
         case 'Back':
-          return
+          return Promise.resolve()
         default:
 
       }
